@@ -30,3 +30,6 @@ By default the angular code came with index.html which you can use but you can a
 If you have any questions please use the Issues tab or submit a pull request. I tried to keep this as simple as possible without all the tests, linting etc... just the basic form of a starter repository to be able to use Angular 4 with Laravel 5.5 as the backend.
 
 [@ilirhushi](http://ilirhushi.me)
+
+### License
+This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
