@@ -2,7 +2,7 @@
 
 ![logo](image.png "Logo")
 
-This is a simple application starter for Laravel 5.5.x + Angular 4.
+This is a simple application starter for [Laravel 5.5.x](https://laravel.com) + [Angular 4](https://angular.io/).
 
 The Angular code is based on [Angular Webpack Starter](https://github.com/preboot/angular-webpack)
 
