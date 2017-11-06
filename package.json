@@ -13,7 +13,7 @@
     "watch": "webpack --watch --progress --profile",
     "build-dev": "rimraf public/build && webpack --progress --profile --bail",
     "build": "rimraf public/build && webpack --progress --profile --bail",
-    "server": "webpack-dev-server --inline --progress --port 9045",
+    "server": "webpack-dev-server --inline --progress --port 3000",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start",
     "lint": "tslint --force \"src/**/*.ts\"",

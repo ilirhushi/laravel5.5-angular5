@@ -59,7 +59,7 @@ module.exports = function makeWebpackConfig() {
    */
   config.output = isTest ? {} : {
     path: root('public/build'),
-    publicPath: isProd ? '/' : 'http://localhost:9045/',
+    publicPath: isProd ? '/' : 'http://localhost:3000/',
     filename: isProd ? 'js/[name].[hash].js' : 'js/[name].js',
     chunkFilename: isProd ? '[id].[hash].chunk.js' : '[id].chunk.js'
   };

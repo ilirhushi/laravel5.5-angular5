@@ -1,8 +1,8 @@
-# Laravel 5.5 + Angular 4
+# Laravel 5.5 + Angular 4 + AdminLTE
 
 ![logo](image.png "Logo")
 
-This is a simple application starter for [Laravel 5.5.x](https://laravel.com) + [Angular 4](https://angular.io/).
+This is a simple application starter for [Laravel 5.5.x](https://laravel.com) + [Angular 4](https://angular.io/) and [AdminLTE](https://github.com/almasaeed2010/AdminLTE).
 
 The Angular code is based on [Angular Webpack Starter](https://github.com/preboot/angular-webpack)
 
@@ -13,7 +13,7 @@ The Angular code is based on [Angular Webpack Starter](https://github.com/preboo
 
 ### Development
 
-Run `npm run start` to start a server that'll run on `http://localhost:9045` or `npm run build-dev` to just compile the assets to public/build
+Run `npm run start` to start a server that'll run on `http://localhost:3000` or `npm run build-dev` to just compile the assets to public/build
 
 ### Build
 
