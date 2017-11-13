@@ -1,8 +1,8 @@
-# Laravel 5.5 + Angular 4 + AdminLTE
+# Laravel 5.5 + Angular 5 + AdminLTE
 
 ![logo](image.png "Logo")
 
-This is a simple application starter for [Laravel 5.5.x](https://laravel.com) + [Angular 4](https://angular.io/) and [AdminLTE](https://github.com/almasaeed2010/AdminLTE).
+This is a simple application starter for [Laravel 5.5.x](https://laravel.com) + [Angular 5](https://angular.io/) and [AdminLTE](https://github.com/almasaeed2010/AdminLTE).
 
 The Angular code is based on [Angular Webpack Starter](https://github.com/preboot/angular-webpack)
 
