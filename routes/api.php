@@ -16,3 +16,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('home/test', function () {
+    $data = [
+        'status' => 200,
+        'message' => 'Example how to use Angular Service'
+    ];
+    return response()->json($data, 200);
+});
