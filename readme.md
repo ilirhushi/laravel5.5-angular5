@@ -2,7 +2,8 @@
 
 ![logo](image.png "Logo")
 
-This is a simple application starter for [Laravel 5.5.x](https://laravel.com) + [Angular 4](https://angular.io/) and [AdminLTE](https://github.com/almasaeed2010/AdminLTE).
+This is a simple application starter for [Laravel 5.5.x](https://laravel.com) + [Angular 4](https://angular.io/) and [AdminLTE](https://github.com/almasaeed2010/AdminLTE). 
+**Notice:** [AdminLTE](https://github.com/almasaeed2010/AdminLTE) for the moment is available only from the Laravel side, I am working to adapt it even for the Angular side.
 
 The Angular code is based on [Angular Webpack Starter](https://github.com/preboot/angular-webpack)
 
