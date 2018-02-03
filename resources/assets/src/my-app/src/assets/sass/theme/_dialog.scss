@@ -1,0 +1,15 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .content-dialog#{$infix} {
+		width: map-get($grid-breakpoints, $breakpoint) - 235;
+	}
+
+}
+
+@include media-breakpoint-between(sm, md,$grid-breakpoints) {
+	.content-dialog-lg{
+		width: 400px;
+	}
+
+}

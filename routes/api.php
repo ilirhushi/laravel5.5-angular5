@@ -12,15 +12,15 @@ use Illuminate\Http\Request;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+// Include CORS -> to allow access headers
+Route::group(['middleware' => 'cors'], function () {
+    Route::get('title', function (){
+        return response()->json([
+            'data' => [
+                'title' => 'Page Title',
+                'message' => 'Example to show how to use service'
+            ]
+        ]);
+    });
 });
 
-Route::get('home/test', function () {
-    $data = [
-        'status' => 200,
-        'message' => 'Example how to use Angular Service'
-    ];
-    return response()->json($data, 200);
-});

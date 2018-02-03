@@ -1,0 +1,10 @@
+export { PartialsModule } from './src/app/partials/partials.module';
+export { ButtonComponent } from './src/app/partials/buttons/component';
+export { CheckboxComponent } from './src/app/partials/forms/checkbox/component';
+export { CheckboxGroupComponent } from './src/app/partials/forms/checkbox-group/component';
+export { NumberComponent } from './src/app/partials/forms/number/component';
+export { PasswordComponent } from './src/app/partials/forms/password/component';
+export { SearchComponent } from './src/app/partials/forms/search/component';
+export { TextComponent } from './src/app/partials/forms/text/component';
+export { ListComponent } from './src/app/partials/list/component';
+export { ModalComponent } from './src/app/partials/modal/component';
