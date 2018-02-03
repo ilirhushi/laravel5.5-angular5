@@ -7,7 +7,8 @@ This is a simple Single Page Application starter for [Laravel 5.5.x](https://lar
 ## Installation
 
 - Clone the repository
-- then run `composer install & npm install`
+- then run `composer install`
+- and then run `npm install` inside resources/assets/src/my-app directory
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
 
