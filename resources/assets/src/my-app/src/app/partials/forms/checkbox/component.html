@@ -1,0 +1,11 @@
+<div class="form-check">
+	<input
+		#checkbox
+		class="form-check-input"
+		type="checkbox"
+		value="{{ val }}"
+		(change)="onChange($event)">
+	<label class="form-check-label" (click)=toggle($event)>
+		{{ label }}
+	</label>
+</div>

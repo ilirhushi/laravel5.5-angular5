@@ -1,0 +1,7 @@
+<button
+	#button
+	class="{{ classes }} {{extraClass}}"
+	[disabled]="disabled">
+	<i *ngIf="icon" class="{{ icon }}"></i>
+	<ng-content></ng-content>
+</button>

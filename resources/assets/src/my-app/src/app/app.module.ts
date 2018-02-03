@@ -1,37 +1,31 @@
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
-// RX imports
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/operator/do';
-import 'rxjs/add/operator/exhaustMap';
-import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/filter';
-import 'rxjs/add/operator/switchMap';
-import 'rxjs/add/operator/finally';
-import 'rxjs/add/operator/retry';
-
 import { AppComponent } from './app.component';
-import { appRouting } from './app-routing';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { ApiService } from './services/api.service';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { PartialsModule, partialsComponents } from './partials/partials.module';
 import { HomeComponent } from './pages/home/home.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { appRouting } from './app-routing';
 
 
 @NgModule({
     declarations: [
         AppComponent,
+        HomeComponent,
         DashboardComponent,
-        HomeComponent
     ],
     imports: [
+        CommonModule,
         BrowserModule,
-        appRouting,
-        HttpClientModule
+        FormsModule,
+        PartialsModule,
+        ReactiveFormsModule,
+        appRouting
     ],
-    providers: [HttpClient, ApiService],
+    providers: [],
     bootstrap: [AppComponent]
 })
 export class AppModule {

@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "my-app"
+    "name": "laravel5.5-angular5-adminlte"
   },
   "apps": [
     {
@@ -19,9 +19,17 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "styles.css",
+        "./assets/sass/bootstrap/bootstrap.scss",
+        "./assets/less/adminLTE/AdminLTE.less",
+        "./assets/sass/theme.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "./assets/js/jQuery/jquery-3.2.1.min.js",
+        "./assets/js/theater/tether.min.js",
+        "./assets/js/bootstrap/bootstrap.js",
+        "./assets/js/AdminLTE/app.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -54,7 +62,7 @@
     }
   },
   "defaults": {
-    "styleExt": "scss",
+    "styleExt": "css",
     "component": {}
   }
 }
