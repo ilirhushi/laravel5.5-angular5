@@ -46,3 +46,6 @@ If you have any questions please use the Issues tab or submit a pull request. I 
 
 ### License
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## TO DO
+Coming soon integration with Redux
