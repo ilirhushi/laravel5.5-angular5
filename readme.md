@@ -48,4 +48,4 @@ If you have any questions please use the Issues tab or submit a pull request. I 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## TODO
-Coming soon integration with Redux - [Ngrs/Platform](https://github.com/ngrx/platform)
+Coming soon integration with Redux - [Ngrx/Platform](https://github.com/ngrx/platform)
