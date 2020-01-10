@@ -11,7 +11,7 @@ This is a simple Single Page Application starter for [Laravel 5.5.x](https://lar
 
 - Clone the repository
 - then run `composer install` and follow Laravel [documentation](https://laravel.com/docs/5.5)
-- and then run `npm install` inside resources/assets/src/my-app directory and follow [Angular CLI Documentation](https://github.com/angular/angular-cli)
+- and then run `npm install` inside `resources/assets/src/my-app` directory and follow [Angular CLI Documentation](https://github.com/angular/angular-cli)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
 
